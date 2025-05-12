@@ -122,38 +122,10 @@ int main()
             restante = wallet - 2;
             cout << "Su saldo actual es de: $" << restante << "\n";
             break;
-
-        case 5:
-            cout << "Usted ha seleccionado una cajita feliz, necistamos saber su edad nos la podria compartir: ";
-            cin >> year;
-            if (year >= 0 && year <= 7)
-            {
-                cout << "Usted tiene edad para comprar la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 15;
-            }
-            else if (year >= 7 && year <= 14)
-            {
-                cout << "Se le cobrara el doble precio de la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 30;
-            }
-            else if (year >= 14 && year <= 18)
-            {
-                cout << "Se le cobrara el triple precio de la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 45;
-            }
-            else if (year >= 18 && year <= 80)
-            {
-                cout << "no lo puede 'astro uca' ";
-            }
-            else{
-                cout <<" error edad no valida porfavor selecione una opcion valida :D";
-            }
-            break;
         default:
             cout << "Ha ocurrido un error, pruebe mas tarde. \n";
         break;
         }
-
         break;
 
     case 3:
@@ -163,7 +135,6 @@ int main()
         cout << "2. HotCakes ($4.75)" << "\n";
         cout << "3. Jugo ($1.25)" << "\n";
         cout << "4. Papas ($2)" << "\n";
-        cout << "5. Cajita feliz ($15)" << "\n";
         cout << "Bienvenido, tenga buenos dias, que desea ordenar: " << "\n";
         cin >> menuNight;
 
@@ -189,32 +160,6 @@ int main()
             restante = wallet - 2;
             cout << "Su saldo actual es de: $" << restante << "\n";
             break;
-        case 5:
-         cout << "Usted ha seleccionado una cajita feliz, necistamos saber su edad nos la podria compartir: ";
-            cin >> year;
-            if (year >= 0 && year <= 7)
-            {
-                cout << "Usted tiene edad para comprar la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 15;
-            }
-            else if (year >= 7 && year <= 14)
-            {
-                cout << "Se le cobrara el doble precio de la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 30;
-            }
-            else if (year >= 14 && year <= 18)
-            {
-                cout << "Se le cobrara el triple precio de la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 45;
-            }
-            else if (year >= 18 && year <= 80)
-            {
-                cout << "no lo puede 'astro uca' ";
-            }
-            else{
-                cout <<" error edad no valida porfavor selecione una opcion valida :D";
-            }
-        break;
          default:
             cout << "Ha ocurrido un error, pruebe mas tarde. \n";
             break;
