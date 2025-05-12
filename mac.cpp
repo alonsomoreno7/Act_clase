@@ -29,7 +29,7 @@ int main()
         cout << "2. HotCakes ($4.75)" << "\n";
         cout << "3. Jugo ($1.25)" << "\n";
         cout << "4. Papas ($2)" << "\n";
-        cout << "5. Cajita feliz ($50)" << "\n";
+        cout << "5. Cajita feliz ($15)" << "\n";
         cout << "Bienvenido, tenga buenos dias, que desea ordenar: " << "\n";
         cin >> menuMorning;
 
@@ -61,17 +61,17 @@ int main()
             if (year >= 0 && year <= 7)
             {
                 cout << "Usted tiene edad para comprar la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 50;
+                restante = wallet - 15;
             }
             else if (year >= 7 && year <= 14)
             {
                 cout << "Se le cobrara el doble precio de la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 50;
+                restante = wallet - 30;
             }
             else if (year >= 14 && year <= 18)
             {
                 cout << "Se le cobrara el triple precio de la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 50;
+                restante = wallet - 45;
             }
             else if (year >= 18 && year <= 80)
             {
@@ -129,17 +129,17 @@ int main()
             if (year >= 0 && year <= 7)
             {
                 cout << "Usted tiene edad para comprar la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 50;
+                restante = wallet - 15;
             }
             else if (year >= 7 && year <= 14)
             {
                 cout << "Se le cobrara el doble precio de la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 50;
+                restante = wallet - 30;
             }
             else if (year >= 14 && year <= 18)
             {
                 cout << "Se le cobrara el triple precio de la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 50;
+                restante = wallet - 45;
             }
             else if (year >= 18 && year <= 80)
             {
@@ -195,17 +195,17 @@ int main()
             if (year >= 0 && year <= 7)
             {
                 cout << "Usted tiene edad para comprar la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 50;
+                restante = wallet - 15;
             }
             else if (year >= 7 && year <= 14)
             {
                 cout << "Se le cobrara el doble precio de la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 50;
+                restante = wallet - 30;
             }
             else if (year >= 14 && year <= 18)
             {
                 cout << "Se le cobrara el triple precio de la cajita feliz, Su saldo actual es de: $"<< restante << "\n";
-                restante = wallet - 50;
+                restante = wallet - 45;
             }
             else if (year >= 18 && year <= 80)
             {
